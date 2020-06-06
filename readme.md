@@ -1,3 +1,11 @@
+## Getting started
+
+Starte server by running the following command in the virtual environment
+
+```shell
+python manage.py runserver localhost:4000
+```
+
 ## http post and get requests
 
 ```shell
