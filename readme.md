@@ -7,8 +7,9 @@ http --json :8000/api/leads/ 'name=John Doe' 'email=jdoe@gmail.com' 'message=Ple
 ```
 
 List all data entries from the Lead table
+
 ```shell
-http --json :9000/api/leads/ 
+http --json :9000/api/leads/
 ```
 
 ## Fixtures
@@ -16,7 +17,7 @@ http --json :9000/api/leads/
 To dumpdate in yaml format install `pyyaml`
 
 ```shell
-pipi install pyyaml
+pip install pyyaml
 ```
 
 Fixtures for the Lead table in `yaml` format were created with
