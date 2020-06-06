@@ -1,0 +1,11 @@
+django
+djangorestframework
+pyyaml
+
+# development
+httpie
+
+
+pylint
+pylint-django
+black

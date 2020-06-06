@@ -1,6 +1,7 @@
 django
 djangorestframework
+requests
 pyyaml
 
-# development
-httpie
+gunicorn
+psycopg2
