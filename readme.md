@@ -1,6 +1,6 @@
 ## Getting started
 
-Starte server by running the following command in the virtual environment
+Start server by running the following command in the virtual environment
 
 ```shell
 python manage.py runserver localhost:4000
