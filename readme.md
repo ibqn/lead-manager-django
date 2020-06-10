@@ -9,32 +9,32 @@ python manage.py runserver localhost:4000
 ## http post and get requests
 
 ```shell
-http --json :8000/api/leads/ 'name=Jane Williams' 'email=jane@gmail.com' 'message=Please contact Jane'
-http --json :8000/api/leads/ 'name=Sam Smith' 'email=sam@gmail.com' 'message=Please contact Sam'
-http --json :8000/api/leads/ 'name=John Doe' 'email=jdoe@gmail.com' 'message=Please contact John'
+http :4000/api/leads/ 'name=Jane Williams' 'email=jane@gmail.com' 'message=Please contact Jane'
+http :4000/api/leads/ 'name=Sam Smith' 'email=sam@gmail.com' 'message=Please contact Sam'
+http :4000/api/leads/ 'name=John Doe' 'email=jdoe@gmail.com' 'message=Please contact John'
 ```
 
 List all data entries from the Lead table
 
 ```shell
-http --json :9000/api/leads/
+http :4000/api/leads/
 ```
 
 ## Delete lead
 
 For example, if you want to remove lead with the id 3, do the following
 
-````shell
+```shell
 http DELETE :4000/api/leads/3/
 ```
 
 ## Fixtures
 
-You can restor model data from fixture by runngin the following command
+You can restore model data from fixtures by running the following command
 
 ```shell
 python manage.py loaddata leads
-````
+```
 
 To dumpdate in yaml format install `pyyaml`
 
