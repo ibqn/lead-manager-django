@@ -22,6 +22,12 @@ http --json :9000/api/leads/
 
 ## Fixtures
 
+You can restor model data from fixture by runngin the following command
+
+```shell
+python manage.py loaddata leads
+```
+
 To dumpdate in yaml format install `pyyaml`
 
 ```shell
