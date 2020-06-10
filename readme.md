@@ -6,7 +6,7 @@ Start server by running the following command in the virtual environment
 python manage.py runserver localhost:4000
 ```
 
-## http post and get requests
+## Create http post and get requests
 
 ```shell
 http :4000/api/leads/ 'name=Jane Williams' 'email=jane@gmail.com' 'message=Please contact Jane'
@@ -20,7 +20,7 @@ List all data entries from the Lead table
 http :4000/api/leads/
 ```
 
-## Delete lead
+## Delete leads
 
 For example, if you want to remove lead with the id 3, do the following
 
