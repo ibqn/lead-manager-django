@@ -20,13 +20,21 @@ List all data entries from the Lead table
 http --json :9000/api/leads/
 ```
 
+## Delete lead
+
+For example, if you want to remove lead with the id 3, do the following
+
+````shell
+http DELETE :4000/api/leads/3/
+```
+
 ## Fixtures
 
 You can restor model data from fixture by runngin the following command
 
 ```shell
 python manage.py loaddata leads
-```
+````
 
 To dumpdate in yaml format install `pyyaml`
 
