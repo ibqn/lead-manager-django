@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "knox",
     "leads.apps.LeadsConfig",
+    "accounts.apps.AccountsConfig",
 ]
 
 MIDDLEWARE = [
