@@ -47,3 +47,11 @@ Fixtures for the Lead table in `yaml` format were created with
 ```shell
 python manage.py dumpdata --format yaml leads.lead > ./leads/fixtures/leads.yaml
 ```
+
+## Test auth routes
+
+After successful login user route can be teste with
+
+```shell
+ http :4000/api/auth/user Authorization:'Token 62fadfdafe0ba53104905fa1beee83144955549e8a7f453ae2771429c1bdc235'
+```
